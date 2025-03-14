@@ -1,4 +1,4 @@
-provider "google" {
+provider "aws" {
   credentials = file("/home/dana/terraform-digital-skola/secret.json")
   project = "ftde-batch-4"
   region  = "us-central1"  # Replace with the desired GCP region
